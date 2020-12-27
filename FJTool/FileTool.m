@@ -10,12 +10,16 @@
 
 @implementation FileTool
 
-+(void)createFile:(NSString *)path {
++(void)createFile:(NSString *)filepath {
     
 }
 
-+(NSArray *)getPathsFromFile:(NSString *)path {
++(NSArray *)getPathsFromFile:(NSString *)filepath {
     return @[@"hello,world", @42];
+}
+
++(void)addPathToFile:(NSString *)path {
+    
 }
 
 @end

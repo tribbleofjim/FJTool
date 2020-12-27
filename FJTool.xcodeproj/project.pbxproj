@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E23EA67A25934B230085E8D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E23EA67925934B230085E8D6 /* main.m */; };
+		E24BF8AB2598A8860072ADA6 /* StringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BF8AA2598A8860072ADA6 /* StringTool.m */; };
+		E24BF8AF2598B5B80072ADA6 /* PrintTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BF8AE2598B5B80072ADA6 /* PrintTool.m */; };
 		E28A86402594C61A00F357BD /* FileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E28A863F2594C61A00F357BD /* FileTool.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,10 @@
 /* Begin PBXFileReference section */
 		E23EA67625934B230085E8D6 /* FJTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FJTool; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23EA67925934B230085E8D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E24BF8A92598A8020072ADA6 /* StringTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringTool.h; sourceTree = "<group>"; };
+		E24BF8AA2598A8860072ADA6 /* StringTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringTool.m; sourceTree = "<group>"; };
+		E24BF8AD2598B54C0072ADA6 /* PrintTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintTool.h; sourceTree = "<group>"; };
+		E24BF8AE2598B5B80072ADA6 /* PrintTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintTool.m; sourceTree = "<group>"; };
 		E28A863E2594C49200F357BD /* FileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileTool.h; sourceTree = "<group>"; };
 		E28A863F2594C61A00F357BD /* FileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +69,10 @@
 				E23EA67925934B230085E8D6 /* main.m */,
 				E28A863F2594C61A00F357BD /* FileTool.m */,
 				E28A863E2594C49200F357BD /* FileTool.h */,
+				E24BF8A92598A8020072ADA6 /* StringTool.h */,
+				E24BF8AA2598A8860072ADA6 /* StringTool.m */,
+				E24BF8AD2598B54C0072ADA6 /* PrintTool.h */,
+				E24BF8AE2598B5B80072ADA6 /* PrintTool.m */,
 			);
 			path = FJTool;
 			sourceTree = "<group>";
@@ -123,6 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24BF8AB2598A8860072ADA6 /* StringTool.m in Sources */,
+				E24BF8AF2598B5B80072ADA6 /* PrintTool.m in Sources */,
 				E23EA67A25934B230085E8D6 /* main.m in Sources */,
 				E28A86402594C61A00F357BD /* FileTool.m in Sources */,
 			);

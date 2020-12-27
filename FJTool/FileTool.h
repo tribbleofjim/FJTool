@@ -12,9 +12,11 @@
 
 @interface FileTool : NSObject
 
-+(void)createFile:(NSString *)path;
++(void)createFile:(NSString *)filepath;
 
-+(NSArray *)getPathsFromFile:(NSString *)path;
++(NSArray *)getPathsFromFile:(NSString *)filepath;
+
++(void)addPathToFile:(NSString *)path;
 
 @end
 
